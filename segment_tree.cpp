@@ -33,7 +33,7 @@ public:
 
     void update(int node, int ind, int val, int low, int high){
         if(low == high){
-            seg[node] = val;
+            seg[ind] = val;
             return;
         }
         int mid = (low + high)/2;
